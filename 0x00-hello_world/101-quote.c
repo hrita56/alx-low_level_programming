@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - main function 
- * Return: 1 always return 1 when successsful
+ * main - main function
+ * Return 1 when successfull
  */
 int main(void)
 {
