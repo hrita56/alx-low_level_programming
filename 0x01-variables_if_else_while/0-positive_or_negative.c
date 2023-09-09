@@ -4,24 +4,23 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - main function
- * Return: always return 0 when successfull
+ * main - mainf function
+ * Return: 0 retuns when succef
  */
 int main(void)
 {
 		int n;
-		int o;
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
 					/* your code goes there */
-				o = n % 10;
-				if (o > 5)
-					printf("this value %d is positive", n, o);
-				else if (o == 0)
-					printf("this value %d is zero", n, o);
-				else if (o < 6 && o != 0)
-					printf("this value %d is negative", n, o);
+				n = n % 10;
+				if (n > 0)
+					printf("%d is positive", n);
+				else if (n == 0)
+					printf("%d is zero", n);
+				else if (n < 0 && n != 0)
+					printf("%d is negative", n);
 				printf("\n");
 
 					return (0);
