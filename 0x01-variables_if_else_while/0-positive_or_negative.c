@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main - main function
@@ -19,7 +19,7 @@ int main(void)
 				if (o > 5)
 					printf("this is value %d is %d greater than 5", n, o);
 				else if (o == 0)
-					printf("this value %d is %d and is zero", n, o);
+					printf("this value %d is %d and is 0", n, o);
 				else if (o < 6 && o != 0)
 					printf("this value %d is %d less than 6 and not 0", n, o);
 				printf("\n");
