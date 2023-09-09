@@ -17,11 +17,11 @@ int main(void)
 					/* your code goes there */
 				o = n % 10;
 				if (o > 5)
-					printf("this is value %d is %d greater than 5", n, o);
+					printf("this value %d is positive", n, o);
 				else if (o == 0)
-					printf("this value %d is %d and is 0", n, o);
+					printf("this value %d is zero", n, o);
 				else if (o < 6 && o != 0)
-					printf("this value %d is %d less than 6 and not 0", n, o);
+					printf("this value %d is negative", n, o);
 				printf("\n");
 
 					return (0);
