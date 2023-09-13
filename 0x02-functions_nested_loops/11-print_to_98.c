@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_t0_98 - prints numbers
+ * print_to_98 - prints numbers
  * @n: starting number
  * Return: void
  */
