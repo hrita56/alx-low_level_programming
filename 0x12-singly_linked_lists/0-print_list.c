@@ -7,17 +7,17 @@
  * @h: pointer to list_t list
  * Return: the number of nodes to be printed in h
  */
-size_t print_list(const list_t *b)
+size_t print_list(const list_t *h)
 {
 	size_t a = 0;
 
-	while (b)
+	while (h)
 	{
-		if (!b->str)
+		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", b->len, b->str);
-		b = b->next;
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
 		a++;
 	}
 	return (a);
